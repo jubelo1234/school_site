@@ -1,4 +1,17 @@
 @media (max-width: 1120px) {
+  .iner_ser {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10vw;
+  }
+  .part ul {
+    width: 85vw;
+  }
+  .services hr {
+    width: 85vw;
+  }
 }
 
 @media (max-width: 992px) {
@@ -67,6 +80,9 @@
 
   .admission_detail {
     border-radius: 0 0 25px 25px;
+  }
+  .services {
+    margin-bottom: 120px;
   }
 }
 

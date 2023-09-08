@@ -234,11 +234,20 @@ a:focus {
 /* about section */
 
 .abt_text {
+  color: #082465;
   line-height: 30px;
+  text-shadow: 2px 2px 2px white;
+  /* font-weight: ; */
 }
 .about_img-box {
   width: 35%;
   margin: 40px auto;
+}
+.motto h3 {
+  font-family: "Space Mono", monospace;
+}
+.motto p {
+  font-style: italic;
 }
 
 /* about section */
@@ -248,12 +257,49 @@ a:focus {
   border: none;
   background-color: transparent;
 }
+.abt_hr {
+  background-color: #082465;
+}
+.abt_info {
+  background-color: #fec913;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px #727272;
+}
 
 .teacher_section .card-title {
   text-align: center;
   color: #48494a;
 }
 
+.services {
+  margin: 70px 0 150px;
+}
+.services hr {
+  background-color: #082465;
+  width: 75vw;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.iner_ser {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+}
+.list-group-item::before {
+  content: "•";
+  margin-right: 10px; /* Adjust the spacing as needed */
+}
+.part h3 {
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  text-align: center;
+  color: #082465;
+  /* text-shadow: 2px 2px 2px #082465; */
+}
+.part ul {
+  width: 30vw;
+}
 /* end teacher container */
 
 /* vehicle section */
