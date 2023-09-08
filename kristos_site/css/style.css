@@ -236,7 +236,7 @@ a:focus {
 .abt_text {
   color: #082465;
   line-height: 30px;
-  text-shadow: 2px 2px 2px white;
+  text-shadow: 1px 1px 1px white;
   /* font-weight: ; */
 }
 .about_img-box {
@@ -266,13 +266,32 @@ a:focus {
   border-radius: 10px;
   box-shadow: 4px 4px 10px #727272;
 }
-
+.phil {
+  background-color: #fec913;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px #727272;
+  width: 65vw;
+  margin-bottom: 50px;
+}
+.phil h3 {
+  font-family: "Space Mono", monospace;
+  text-shadow: 2px 2px 2px white;
+  margin-bottom: 20px;
+}
+.phil p {
+  text-align: center;
+  text-shadow: 1px 1px 1px white;
+}
 .teacher_section .card-title {
   text-align: center;
   color: #48494a;
 }
 
 .services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 70px 0 150px;
 }
 .services hr {
@@ -300,11 +319,72 @@ a:focus {
 .part ul {
   width: 30vw;
 }
+.personnel {
+  border: 2px solid red;
+}
+.ecard {
+  width: 260px;
+  height: 420px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px #7b7c7c;
+  padding-bottom: 4px;
+}
+.cont-st {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  width: 100%;
+  border: 2px solid red;
+  padding: 10px;
+}
+.img-cont {
+  width: 265px;
+  height: 300px;
+}
+.img-cont img {
+  width: 265px;
+  height: 300px;
+  background-size: cover;
+}
+.ecardt {
+  padding: 8px 29px 0;
+}
+.ecardt h5 {
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  color: #082465;
+}
+.ecardt p {
+  text-align: center;
+  color: #2d2c2c;
+  font-style: italic;
+  font-weight: 550;
+}
+.cardsr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 40px;
+  margin: 60px 40px 80px;
+}
+.btns {
+  width: 50px;
+  height: 50px;
+  background-color: #082465;
+  border: none;
+  border-radius: 50%;
+}
 /* end teacher container */
 
 /* vehicle section */
 .vehicle_img-box {
   width: 60%;
+  height: ;
   margin: 0 auto;
 }
 

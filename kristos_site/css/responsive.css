@@ -12,7 +12,17 @@
   .services hr {
     width: 85vw;
   }
+  .phil {
+    width: 85vw;
+  }
 }
+/* @media (max-width: 639px) {
+  .img-cont,
+  .img-cont img {
+    width: 80vw;
+    height: auto;
+  }
+} */
 
 @media (max-width: 992px) {
   .top_container {
