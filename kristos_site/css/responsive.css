@@ -104,6 +104,16 @@
     width: 55%;
   }
 }
+/* @media (min-width: 576px) {
+  header {
+    top: 0;
+    position: sticky;
+    background-color: #082465;
+  }
+  .nav-link {
+    color: #fff;
+  }
+} */
 
 @media (max-width: 576px) {
   .vehicle_img-box {
@@ -112,7 +122,7 @@
 
   .carousel-control-prev,
   .carousel-control-next {
-    top: 150%;
+    top: 120%;
   }
 
   .carousel-control-prev {

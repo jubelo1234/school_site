@@ -9,9 +9,15 @@ body {
   color: #48494a;
   background-image: url(../images/body-bg.jpg);
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .layout_padding {
   padding: 75px 0;
+}
+.vehicle_img-box img {
+  border-radius: 10px;
 }
 
 .logo_cont {
@@ -94,6 +100,12 @@ body {
 
 nav.navbar.navbar-expand-lg {
   padding: 10px 0;
+}
+.nav-item {
+  transition: 0.3s ease-in-out all;
+}
+.nav-item:hover {
+  transform: scale(1.05);
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
@@ -384,7 +396,7 @@ a:focus {
 /* vehicle section */
 .vehicle_img-box {
   width: 60%;
-  height: ;
+  /* height: ; */
   margin: 0 auto;
 }
 
@@ -422,6 +434,79 @@ a:focus {
 
   background-size: 18%;
 }
+.cont-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.cont-sec h2 {
+  margin-bottom: 40px;
+}
+.contact-cont {
+  padding: 25px 35px;
+  background-color: #fefeff;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(163, 158, 163, 1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(163, 158, 163, 1);
+  box-shadow: 0px 0px 5px 0px rgba(163, 158, 163, 1);
+  border-radius: 20px;
+}
+.contact-cont {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.con_info {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.con_info div {
+  /* margin: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.con_info h4 {
+  font-family: "Space Mono", monospace;
+  margin: 0;
+  font-size: 24px;
+  /* text-align: center; */
+  color: #082465;
+}
+.con_info span {
+  /* padding: 5px 0 0 0; */
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #232323;
+  font-weight: 600;
+}
+.con-hr {
+  background-color: #082465;
+  z-index: 90000;
+}
+.cont-text {
+  /* border: 2px solid red; */
+  font-family: "Space Mono", monospace;
+  width: 50vw;
+  text-align: center;
+  padding-bottom: 5px;
+}
+@media (max-width: 800px) {
+  .con_info {
+    margin-bottom: 8px;
+  }
+  .con_info h4 {
+    font-size: 18px;
+  }
+  .con_info span {
+    font-size: 12px;
+  }
+  .cont-text {
+    width: 100%;
+  }
+}
 
 .client_container {
   width: 80%;
@@ -455,11 +540,16 @@ a:focus {
 /* end client section */
 
 /* contact section */
-.contact_section {
+/* .contact_section {
   background-image: url(../images/shape-2.png);
   background-repeat: no-repeat;
   background-size: 14%;
   background-position: left center;
+} */
+
+.contact_section {
+  margin-top: 90px;
+  margin-bottom: 150px;
 }
 
 .contact-form {
