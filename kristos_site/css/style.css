@@ -340,7 +340,7 @@ a:focus {
   overflow: hidden;
   background-color: white;
   border-radius: 5px;
-  box-shadow: 5px 5px 20px #7b7c7c;
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
   padding-bottom: 4px;
 }
 .cont-st {
@@ -354,11 +354,13 @@ a:focus {
 .img-cont {
   width: 265px;
   height: 300px;
+  overflow: hidden;
 }
 .img-cont img {
-  width: 265px;
-  height: 300px;
-  background-size: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .ecardt {
   padding: 8px 29px 0;
@@ -548,8 +550,8 @@ a:focus {
 } */
 
 .contact_section {
-  margin-top: 90px;
-  margin-bottom: 150px;
+  margin-top: 150px;
+  margin-bottom: 100px;
 }
 
 .contact-form {
